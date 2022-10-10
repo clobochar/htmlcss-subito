@@ -15,6 +15,10 @@ ul {
     list-style: none;
 }
 
+.site-map {
+    border-bottom: 1px solid lightgrey;
+}
+
 .site-map-list {
     display: flex;
     flex-direction: row;
@@ -26,4 +30,50 @@ ul {
 
 .site-map-item {
     padding: 4px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.div-logo {
+    width: 250px;
+}
+
+.user-action-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-item {
+    padding: 8px;
+    margin-left: 15px;
+}
+
+.login {
+    font-weight: bold;
+}
+
+.insert-product {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: red;
+    font-weight: bold;
+    background-color: #FEECEB;
+    border-radius: 5px;
+}
+
+.plus {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-right: 50px;
+    font-size: 20px;
 }

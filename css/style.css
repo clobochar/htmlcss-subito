@@ -19,6 +19,12 @@ ul {
     border-bottom: 1px solid lightgrey;
 }
 
+.site-map ul li:not(:first-child)::before {
+    content: "|";
+    padding: 0 8px;
+    color: rgb(79, 79, 79);
+}
+
 .site-map-list {
     display: flex;
     flex-direction: row;
@@ -29,7 +35,7 @@ ul {
 }
 
 .site-map-item {
-    padding: 4px;
+    padding: 4px 0;
 }
 
 .nav-bar {
@@ -237,4 +243,17 @@ p {
 .text-section h4 {
     text-transform: uppercase;
     color: red;
+}
+
+.lorem-section {
+    margin-top: 40px;
+    background-color: #F7F8FB;
+}
+
+.lorem-title {
+    padding: 20px;
+}
+
+.lorem-card {
+    background-color: white;
 }

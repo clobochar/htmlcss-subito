@@ -215,3 +215,26 @@ p {
     margin: 0 auto;
     
 }
+
+.subito-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.subito-img img {
+    width: 600px;
+    border-radius: 7px;
+}
+
+.text-section {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.text-section h4 {
+    text-transform: uppercase;
+    color: red;
+}

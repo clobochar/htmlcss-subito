@@ -175,3 +175,43 @@ input {
     margin-top: 30px;
     padding: 5px 20px 5px 20px;
 }
+
+.try-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #727F91;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.first-box, .second-box, .third-box {
+    margin-right: 15px; 
+}
+
+.img-action {
+    width: 300px;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    width: 250px;
+    height: 40px;
+    top: -60px;
+    margin: 0 auto;
+    
+}
